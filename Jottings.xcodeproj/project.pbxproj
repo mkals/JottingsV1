@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E9E42A921D7517EB00C5A74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42A911D7517EB00C5A74D /* AppDelegate.swift */; };
-		E9E42A941D7517EB00C5A74D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42A931D7517EB00C5A74D /* ViewController.swift */; };
+		E9E42A941D7517EB00C5A74D /* JottingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42A931D7517EB00C5A74D /* JottingViewController.swift */; };
 		E9E42A971D7517EB00C5A74D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E42A951D7517EB00C5A74D /* Main.storyboard */; };
 		E9E42A9A1D7517EB00C5A74D /* Jottings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9E42A981D7517EB00C5A74D /* Jottings.xcdatamodeld */; };
 		E9E42A9C1D7517EB00C5A74D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E42A9B1D7517EB00C5A74D /* Assets.xcassets */; };
@@ -23,6 +23,7 @@
 		E9E42AD01D751CF100C5A74D /* Authour.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC81D751CF100C5A74D /* Authour.swift */; };
 		E9E42AD11D751CF100C5A74D /* Version+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC91D751CF100C5A74D /* Version+CoreDataProperties.swift */; };
 		E9E42AD21D751CF100C5A74D /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42ACA1D751CF100C5A74D /* Version.swift */; };
+		E9E42B131D752BA100C5A74D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42B121D752BA100C5A74D /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,7 @@
 /* Begin PBXFileReference section */
 		E9E42A8E1D7517EB00C5A74D /* Jottings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jottings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E42A911D7517EB00C5A74D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9E42A931D7517EB00C5A74D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9E42A931D7517EB00C5A74D /* JottingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JottingViewController.swift; sourceTree = "<group>"; };
 		E9E42A961D7517EB00C5A74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9E42A991D7517EB00C5A74D /* Jottings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jottings.xcdatamodel; sourceTree = "<group>"; };
 		E9E42A9B1D7517EB00C5A74D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 		E9E42AC81D751CF100C5A74D /* Authour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authour.swift; sourceTree = "<group>"; };
 		E9E42AC91D751CF100C5A74D /* Version+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Version+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E9E42ACA1D751CF100C5A74D /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		E9E42B121D752BA100C5A74D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				E9E42A911D7517EB00C5A74D /* AppDelegate.swift */,
-				E9E42A931D7517EB00C5A74D /* ViewController.swift */,
+				E9E42A931D7517EB00C5A74D /* JottingViewController.swift */,
+				E9E42B121D752BA100C5A74D /* TableViewController.swift */,
 				E9E42A951D7517EB00C5A74D /* Main.storyboard */,
 				E9E42A9B1D7517EB00C5A74D /* Assets.xcassets */,
 				E9E42A9D1D7517EB00C5A74D /* LaunchScreen.storyboard */,
@@ -297,7 +300,8 @@
 				E9E42ACE1D751CF100C5A74D /* Jotting.swift in Sources */,
 				E9E42ACD1D751CF100C5A74D /* Jotting+CoreDataProperties.swift in Sources */,
 				E9E42ACF1D751CF100C5A74D /* Authour+CoreDataProperties.swift in Sources */,
-				E9E42A941D7517EB00C5A74D /* ViewController.swift in Sources */,
+				E9E42A941D7517EB00C5A74D /* JottingViewController.swift in Sources */,
+				E9E42B131D752BA100C5A74D /* TableViewController.swift in Sources */,
 				E9E42A9A1D7517EB00C5A74D /* Jottings.xcdatamodeld in Sources */,
 				E9E42A921D7517EB00C5A74D /* AppDelegate.swift in Sources */,
 				E9E42AD01D751CF100C5A74D /* Authour.swift in Sources */,
