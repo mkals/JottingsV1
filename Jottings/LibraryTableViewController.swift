@@ -9,14 +9,18 @@
 import UIKit
 import CoreData
 
-class LibraryTableViewController: UITableViewController {
+class LibraryTableViewController: UITableViewController, NSFetchedResultsControllerDelegate {
 
     // MARK: Model
     
     var managedObjectContext: NSManagedObjectContext? = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext
     
     var sortDescriptors = ["Author", "Collection", "Work"]
-    var recentEntries: [Jotting]? = fetchedResultsController. // TODO: get contents
+    var recentEntries: [Jotting]? {
+        get {
+            return nil // TODO: get contents
+        }
+    }
     
     
     override func viewDidLoad() {
@@ -47,7 +51,7 @@ class LibraryTableViewController: UITableViewController {
         if section == 0 {
             return sortDescriptors.count
         } else {
-            return recentEntries.count
+            return recentEntries?.count ?? 0
         }
     }
     
@@ -56,16 +60,19 @@ class LibraryTableViewController: UITableViewController {
         
         if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCellWithIdentifier("libraryCell", forIndexPath: indexPath)
-            cell.textLabel?.text = model[indexPath.section][indexPath.row]
+            cell.textLabel?.text = sortDescriptors[indexPath.row]
             return cell
             
-        } //else if indexPath.section == 2 {
+        } else {
             let cell = tableView.dequeueReusableCellWithIdentifier("recentCell", forIndexPath: indexPath)
-            cell.textLabel?.text = model[indexPath.section][indexPath.row]
-            return cell
             
-//        }
-         //throw unchecked exception
+            if let latest = recentEntries![indexPath.row].latest {
+                cell.textLabel?.text = latest.title
+                cell.detailTextLabel?.text = String(latest.edited)
+                return cell
+            }
+            return cell //
+        }
     }
  
     // MARK: - Fetched results controller

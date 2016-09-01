@@ -7,13 +7,13 @@
         <attribute name="startIndex" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="version" maxCount="1" deletionRule="Nullify" destinationEntity="Version" inverseName="annotations" inverseEntity="Version" syncable="YES"/>
     </entity>
-    <entity name="Authour" representedClassName=".Authour" syncable="YES">
+    <entity name="Author" representedClassName=".Authour" syncable="YES">
         <attribute name="name" attributeType="String" syncable="YES"/>
         <relationship name="jottings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Jotting" inverseName="author" inverseEntity="Jotting" syncable="YES"/>
     </entity>
     <entity name="Jotting" representedClassName=".Jotting" syncable="YES">
         <attribute name="lastChanged" optional="YES" attributeType="Date" syncable="YES"/>
-        <relationship name="author" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Authour" inverseName="jottings" inverseEntity="Authour" syncable="YES"/>
+        <relationship name="author" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Author" inverseName="jottings" inverseEntity="Author" syncable="YES"/>
         <relationship name="versions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Version" inverseName="work" inverseEntity="Version" syncable="YES"/>
     </entity>
     <entity name="Version" representedClassName=".Version" syncable="YES">
@@ -25,7 +25,7 @@
     </entity>
     <elements>
         <element name="Annotation" positionX="421" positionY="-189" width="128" height="118"/>
-        <element name="Authour" positionX="-153" positionY="-192" width="128" height="73"/>
+        <element name="Author" positionX="-153" positionY="-192" width="128" height="73"/>
         <element name="Jotting" positionX="43" positionY="-189" width="128" height="88"/>
         <element name="Version" positionX="234" positionY="-189" width="128" height="118"/>
     </elements>

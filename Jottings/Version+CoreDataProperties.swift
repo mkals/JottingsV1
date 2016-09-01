@@ -2,7 +2,7 @@
 //  Version+CoreDataProperties.swift
 //  Jottings
 //
-//  Created by Morten Kals on 29/08/2016.
+//  Created by Morten Kals on 01/09/2016.
 //  Copyright © 2016 Kals. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -14,10 +14,10 @@ import CoreData
 
 extension Version {
 
-    @NSManaged var title: String?
     @NSManaged var body: String?
     @NSManaged var edited: NSDate?
-    @NSManaged var work: Jotting?
+    @NSManaged var title: String?
     @NSManaged var annotations: NSSet?
+    @NSManaged var work: Jotting?
 
 }

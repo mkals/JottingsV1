@@ -14,6 +14,15 @@ class Jotting: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
 
+    var latest : Version? {
+        get {
+            return nil // TODO: impliment
+        }
+    }
     
-    
+    var first : Version? {
+        get {
+            return nil // TODO: impliment
+        }
+    }
 }

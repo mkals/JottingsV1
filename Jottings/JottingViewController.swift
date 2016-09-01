@@ -24,6 +24,18 @@ class JottingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    var detailItem: Jotting? = nil {
+        didSet {
+            updateUI()
+        }
+    }
+    
+    func updateUI() {
+        let latest = detailItem?.latest
+        header.text = latest?.title
+        body.text = latest?.body
+        footer.text = String(latest?.edited)
+    }
+    
 }
 
