@@ -14,10 +14,10 @@ class Annotation: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
 
-    init(comment: String, startIndex: Int, endIndex: Int) {
-        self.comment = comment
-        self.startIndex = startIndex
-        self.endIndex = endIndex
-        self.updated = NSDate.init()
-    }
+//    init(comment: String, startIndex: Int, endIndex: Int) {
+//        self.comment = comment
+//        self.startIndex = startIndex
+//        self.endIndex = endIndex
+////        self.updated = NSDate.init()
+//    }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E92B76AC1D761EC200EC0DD7 /* LibraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B76AB1D761EC200EC0DD7 /* LibraryTableViewController.swift */; };
 		E9E42A921D7517EB00C5A74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42A911D7517EB00C5A74D /* AppDelegate.swift */; };
 		E9E42A941D7517EB00C5A74D /* JottingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42A931D7517EB00C5A74D /* JottingViewController.swift */; };
 		E9E42A971D7517EB00C5A74D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E42A951D7517EB00C5A74D /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E92B76AB1D761EC200EC0DD7 /* LibraryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryTableViewController.swift; sourceTree = "<group>"; };
 		E9E42A8E1D7517EB00C5A74D /* Jottings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jottings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E42A911D7517EB00C5A74D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E42A931D7517EB00C5A74D /* JottingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JottingViewController.swift; sourceTree = "<group>"; };
@@ -118,8 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				E9E42A911D7517EB00C5A74D /* AppDelegate.swift */,
-				E9E42A931D7517EB00C5A74D /* JottingViewController.swift */,
+				E92B76AB1D761EC200EC0DD7 /* LibraryTableViewController.swift */,
 				E9E42B121D752BA100C5A74D /* TableViewController.swift */,
+				E9E42A931D7517EB00C5A74D /* JottingViewController.swift */,
 				E9E42A951D7517EB00C5A74D /* Main.storyboard */,
 				E9E42A9B1D7517EB00C5A74D /* Assets.xcassets */,
 				E9E42A9D1D7517EB00C5A74D /* LaunchScreen.storyboard */,
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E42AD11D751CF100C5A74D /* Version+CoreDataProperties.swift in Sources */,
+				E92B76AC1D761EC200EC0DD7 /* LibraryTableViewController.swift in Sources */,
 				E9E42ACB1D751CF100C5A74D /* Annotation+CoreDataProperties.swift in Sources */,
 				E9E42ACC1D751CF100C5A74D /* Annotation.swift in Sources */,
 				E9E42ACE1D751CF100C5A74D /* Jotting.swift in Sources */,
@@ -532,6 +536,7 @@
 				E9E42ABB1D7517EB00C5A74D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9E42ABC1D7517EB00C5A74D /* Build configuration list for PBXNativeTarget "JottingsTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +545,7 @@
 				E9E42ABE1D7517EB00C5A74D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9E42ABF1D7517EB00C5A74D /* Build configuration list for PBXNativeTarget "JottingsUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +554,7 @@
 				E9E42AC11D7517EB00C5A74D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

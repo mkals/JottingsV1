@@ -9,7 +9,11 @@
 import UIKit
 
 class JottingViewController: UIViewController {
-
+    
+    @IBOutlet weak var header: UILabel!
+    @IBOutlet weak var body: UITextView!
+    @IBOutlet weak var footer: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
