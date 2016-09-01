@@ -142,10 +142,10 @@ class LibraryTableViewController: UITableViewController {
             return _fetchedResultsController!
         }
         
-        let fetchRequest: NSFetchRequest<Jotting> = Jotting.fetchRequest()
+        let fetchRequest: NSFetchRequest<Jotting> = Jotting.fetchRequestMorten()
         
         // Set the batch size to a suitable number.
-        fetchRequest.fetchBatchSize = 20
+        fetchRequest.fetchBatchSize = 6
         
         // Edit the sort key as appropriate.
         let sortDescriptor = NSSortDescriptor(key: "lastEdited", ascending: false)

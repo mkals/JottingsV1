@@ -20,4 +20,9 @@ class Annotation: NSManagedObject {
 //        self.endIndex = endIndex
 ////        self.updated = NSDate.init()
 //    }
+    
+    static func fetchRequest() -> NSFetchRequest<Annotation> {
+        return NSFetchRequest<Annotation>(entityName: "Annotation")
+    }
+    
 }

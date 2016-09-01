@@ -14,4 +14,9 @@ class Version: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
 
+    static func fetchRequest() -> NSFetchRequest<Version> {
+        return NSFetchRequest<Version>(entityName: "Version")
+    }
+
+    
 }

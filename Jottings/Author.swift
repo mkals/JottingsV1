@@ -10,8 +10,12 @@ import Foundation
 import CoreData
 
 
-class Authour: NSManagedObject {
+class Author: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
+ 
+    static func fetchRequest() -> NSFetchRequest<Author> {
+        return NSFetchRequest<Author>(entityName: "Author")
+    }
     
 }

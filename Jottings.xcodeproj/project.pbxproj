@@ -20,8 +20,8 @@
 		E9E42ACC1D751CF100C5A74D /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC41D751CF100C5A74D /* Annotation.swift */; };
 		E9E42ACD1D751CF100C5A74D /* Jotting+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC51D751CF100C5A74D /* Jotting+CoreDataProperties.swift */; };
 		E9E42ACE1D751CF100C5A74D /* Jotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC61D751CF100C5A74D /* Jotting.swift */; };
-		E9E42ACF1D751CF100C5A74D /* Authour+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC71D751CF100C5A74D /* Authour+CoreDataProperties.swift */; };
-		E9E42AD01D751CF100C5A74D /* Authour.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC81D751CF100C5A74D /* Authour.swift */; };
+		E9E42ACF1D751CF100C5A74D /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC71D751CF100C5A74D /* Author+CoreDataProperties.swift */; };
+		E9E42AD01D751CF100C5A74D /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC81D751CF100C5A74D /* Author.swift */; };
 		E9E42AD11D751CF100C5A74D /* Version+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC91D751CF100C5A74D /* Version+CoreDataProperties.swift */; };
 		E9E42AD21D751CF100C5A74D /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42ACA1D751CF100C5A74D /* Version.swift */; };
 		E9E42B131D752BA100C5A74D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42B121D752BA100C5A74D /* TableViewController.swift */; };
@@ -64,8 +64,8 @@
 		E9E42AC41D751CF100C5A74D /* Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 		E9E42AC51D751CF100C5A74D /* Jotting+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Jotting+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E9E42AC61D751CF100C5A74D /* Jotting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jotting.swift; sourceTree = "<group>"; };
-		E9E42AC71D751CF100C5A74D /* Authour+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Authour+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E9E42AC81D751CF100C5A74D /* Authour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authour.swift; sourceTree = "<group>"; };
+		E9E42AC71D751CF100C5A74D /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E9E42AC81D751CF100C5A74D /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		E9E42AC91D751CF100C5A74D /* Version+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Version+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E9E42ACA1D751CF100C5A74D /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		E9E42B121D752BA100C5A74D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -157,8 +157,8 @@
 				E9E42AC41D751CF100C5A74D /* Annotation.swift */,
 				E9E42AC51D751CF100C5A74D /* Jotting+CoreDataProperties.swift */,
 				E9E42AC61D751CF100C5A74D /* Jotting.swift */,
-				E9E42AC71D751CF100C5A74D /* Authour+CoreDataProperties.swift */,
-				E9E42AC81D751CF100C5A74D /* Authour.swift */,
+				E9E42AC71D751CF100C5A74D /* Author+CoreDataProperties.swift */,
+				E9E42AC81D751CF100C5A74D /* Author.swift */,
 				E9E42AC91D751CF100C5A74D /* Version+CoreDataProperties.swift */,
 				E9E42ACA1D751CF100C5A74D /* Version.swift */,
 				E9E42A981D7517EB00C5A74D /* Jottings.xcdatamodeld */,
@@ -306,12 +306,12 @@
 				E9E42ACC1D751CF100C5A74D /* Annotation.swift in Sources */,
 				E9E42ACE1D751CF100C5A74D /* Jotting.swift in Sources */,
 				E9E42ACD1D751CF100C5A74D /* Jotting+CoreDataProperties.swift in Sources */,
-				E9E42ACF1D751CF100C5A74D /* Authour+CoreDataProperties.swift in Sources */,
+				E9E42ACF1D751CF100C5A74D /* Author+CoreDataProperties.swift in Sources */,
 				E9E42A941D7517EB00C5A74D /* JottingViewController.swift in Sources */,
 				E9E42B131D752BA100C5A74D /* TableViewController.swift in Sources */,
 				E9E42A9A1D7517EB00C5A74D /* Jottings.xcdatamodeld in Sources */,
 				E9E42A921D7517EB00C5A74D /* AppDelegate.swift in Sources */,
-				E9E42AD01D751CF100C5A74D /* Authour.swift in Sources */,
+				E9E42AD01D751CF100C5A74D /* Author.swift in Sources */,
 				E9E42AD21D751CF100C5A74D /* Version.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,7 +12,7 @@
 import Foundation
 import CoreData
 
-extension Authour {
+extension Author {
 
     @NSManaged var name: String?
     @NSManaged var jottings: NSSet?

@@ -27,4 +27,8 @@ class Jotting: NSManagedObject {
         return nil
     }
     
+    static func fetchRequestMorten() -> NSFetchRequest<Jotting> {
+        return NSFetchRequest<Jotting>(entityName: "Jotting")
+    }
+    
 }
