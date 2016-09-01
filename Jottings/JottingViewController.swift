@@ -33,9 +33,9 @@ class JottingViewController: UIViewController {
 
     func configureView() {
         
-        header = detailItem.
-        body =
-        footer = 
+//        header = detailItem.
+//        body =
+//        footer = 
         
     }
 

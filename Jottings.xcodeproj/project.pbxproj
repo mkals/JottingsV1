@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E92B76AC1D761EC200EC0DD7 /* LibraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B76AB1D761EC200EC0DD7 /* LibraryTableViewController.swift */; };
+		E9368BA81D78868B002D4B01 /* Authour+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E9368B991D78868B002D4B01 /* Authour+CoreDataClass.m */; };
+		E9368BA91D78868B002D4B01 /* Authour+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E9368B9B1D78868B002D4B01 /* Authour+CoreDataProperties.m */; };
+		E9368BAA1D78868B002D4B01 /* Annotation+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E9368B9D1D78868B002D4B01 /* Annotation+CoreDataClass.m */; };
+		E9368BAB1D78868B002D4B01 /* Annotation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E9368B9F1D78868B002D4B01 /* Annotation+CoreDataProperties.m */; };
+		E9368BAC1D78868B002D4B01 /* Jotting+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E9368BA11D78868B002D4B01 /* Jotting+CoreDataClass.m */; };
+		E9368BAD1D78868B002D4B01 /* Jotting+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E9368BA31D78868B002D4B01 /* Jotting+CoreDataProperties.m */; };
+		E9368BAE1D78868B002D4B01 /* Version+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E9368BA51D78868B002D4B01 /* Version+CoreDataClass.m */; };
+		E9368BAF1D78868B002D4B01 /* Version+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E9368BA71D78868B002D4B01 /* Version+CoreDataProperties.m */; };
 		E9E42A921D7517EB00C5A74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42A911D7517EB00C5A74D /* AppDelegate.swift */; };
 		E9E42A941D7517EB00C5A74D /* JottingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42A931D7517EB00C5A74D /* JottingViewController.swift */; };
 		E9E42A971D7517EB00C5A74D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E42A951D7517EB00C5A74D /* Main.storyboard */; };
@@ -16,14 +24,6 @@
 		E9E42A9F1D7517EB00C5A74D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E42A9D1D7517EB00C5A74D /* LaunchScreen.storyboard */; };
 		E9E42AAA1D7517EB00C5A74D /* JottingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AA91D7517EB00C5A74D /* JottingsTests.swift */; };
 		E9E42AB51D7517EB00C5A74D /* JottingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AB41D7517EB00C5A74D /* JottingsUITests.swift */; };
-		E9E42ACB1D751CF100C5A74D /* Annotation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC31D751CF100C5A74D /* Annotation+CoreDataProperties.swift */; };
-		E9E42ACC1D751CF100C5A74D /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC41D751CF100C5A74D /* Annotation.swift */; };
-		E9E42ACD1D751CF100C5A74D /* Jotting+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC51D751CF100C5A74D /* Jotting+CoreDataProperties.swift */; };
-		E9E42ACE1D751CF100C5A74D /* Jotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC61D751CF100C5A74D /* Jotting.swift */; };
-		E9E42ACF1D751CF100C5A74D /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC71D751CF100C5A74D /* Author+CoreDataProperties.swift */; };
-		E9E42AD01D751CF100C5A74D /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC81D751CF100C5A74D /* Author.swift */; };
-		E9E42AD11D751CF100C5A74D /* Version+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42AC91D751CF100C5A74D /* Version+CoreDataProperties.swift */; };
-		E9E42AD21D751CF100C5A74D /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42ACA1D751CF100C5A74D /* Version.swift */; };
 		E9E42B131D752BA100C5A74D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E42B121D752BA100C5A74D /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +46,23 @@
 
 /* Begin PBXFileReference section */
 		E92B76AB1D761EC200EC0DD7 /* LibraryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryTableViewController.swift; sourceTree = "<group>"; };
+		E9368B971D78868A002D4B01 /* Jottings-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jottings-Bridging-Header.h"; sourceTree = "<group>"; };
+		E9368B981D78868B002D4B01 /* Authour+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Authour+CoreDataClass.h"; sourceTree = "<group>"; };
+		E9368B991D78868B002D4B01 /* Authour+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Authour+CoreDataClass.m"; sourceTree = "<group>"; };
+		E9368B9A1D78868B002D4B01 /* Authour+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Authour+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E9368B9B1D78868B002D4B01 /* Authour+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Authour+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E9368B9C1D78868B002D4B01 /* Annotation+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Annotation+CoreDataClass.h"; sourceTree = "<group>"; };
+		E9368B9D1D78868B002D4B01 /* Annotation+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Annotation+CoreDataClass.m"; sourceTree = "<group>"; };
+		E9368B9E1D78868B002D4B01 /* Annotation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Annotation+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E9368B9F1D78868B002D4B01 /* Annotation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Annotation+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E9368BA01D78868B002D4B01 /* Jotting+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Jotting+CoreDataClass.h"; sourceTree = "<group>"; };
+		E9368BA11D78868B002D4B01 /* Jotting+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Jotting+CoreDataClass.m"; sourceTree = "<group>"; };
+		E9368BA21D78868B002D4B01 /* Jotting+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Jotting+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E9368BA31D78868B002D4B01 /* Jotting+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Jotting+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E9368BA41D78868B002D4B01 /* Version+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Version+CoreDataClass.h"; sourceTree = "<group>"; };
+		E9368BA51D78868B002D4B01 /* Version+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Version+CoreDataClass.m"; sourceTree = "<group>"; };
+		E9368BA61D78868B002D4B01 /* Version+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Version+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E9368BA71D78868B002D4B01 /* Version+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Version+CoreDataProperties.m"; sourceTree = "<group>"; };
 		E9E42A8E1D7517EB00C5A74D /* Jottings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jottings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E42A911D7517EB00C5A74D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E42A931D7517EB00C5A74D /* JottingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JottingViewController.swift; sourceTree = "<group>"; };
@@ -60,14 +77,6 @@
 		E9E42AB01D7517EB00C5A74D /* JottingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JottingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E42AB41D7517EB00C5A74D /* JottingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JottingsUITests.swift; sourceTree = "<group>"; };
 		E9E42AB61D7517EB00C5A74D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9E42AC31D751CF100C5A74D /* Annotation+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Annotation+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E9E42AC41D751CF100C5A74D /* Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
-		E9E42AC51D751CF100C5A74D /* Jotting+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Jotting+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E9E42AC61D751CF100C5A74D /* Jotting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jotting.swift; sourceTree = "<group>"; };
-		E9E42AC71D751CF100C5A74D /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E9E42AC81D751CF100C5A74D /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
-		E9E42AC91D751CF100C5A74D /* Version+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Version+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E9E42ACA1D751CF100C5A74D /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		E9E42B121D752BA100C5A74D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,15 +162,24 @@
 		E9E42AC21D7518E400C5A74D /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				E9E42AC31D751CF100C5A74D /* Annotation+CoreDataProperties.swift */,
-				E9E42AC41D751CF100C5A74D /* Annotation.swift */,
-				E9E42AC51D751CF100C5A74D /* Jotting+CoreDataProperties.swift */,
-				E9E42AC61D751CF100C5A74D /* Jotting.swift */,
-				E9E42AC71D751CF100C5A74D /* Author+CoreDataProperties.swift */,
-				E9E42AC81D751CF100C5A74D /* Author.swift */,
-				E9E42AC91D751CF100C5A74D /* Version+CoreDataProperties.swift */,
-				E9E42ACA1D751CF100C5A74D /* Version.swift */,
+				E9368B981D78868B002D4B01 /* Authour+CoreDataClass.h */,
+				E9368B991D78868B002D4B01 /* Authour+CoreDataClass.m */,
+				E9368B9A1D78868B002D4B01 /* Authour+CoreDataProperties.h */,
+				E9368B9B1D78868B002D4B01 /* Authour+CoreDataProperties.m */,
+				E9368B9C1D78868B002D4B01 /* Annotation+CoreDataClass.h */,
+				E9368B9D1D78868B002D4B01 /* Annotation+CoreDataClass.m */,
+				E9368B9E1D78868B002D4B01 /* Annotation+CoreDataProperties.h */,
+				E9368B9F1D78868B002D4B01 /* Annotation+CoreDataProperties.m */,
+				E9368BA01D78868B002D4B01 /* Jotting+CoreDataClass.h */,
+				E9368BA11D78868B002D4B01 /* Jotting+CoreDataClass.m */,
+				E9368BA21D78868B002D4B01 /* Jotting+CoreDataProperties.h */,
+				E9368BA31D78868B002D4B01 /* Jotting+CoreDataProperties.m */,
+				E9368BA41D78868B002D4B01 /* Version+CoreDataClass.h */,
+				E9368BA51D78868B002D4B01 /* Version+CoreDataClass.m */,
+				E9368BA61D78868B002D4B01 /* Version+CoreDataProperties.h */,
+				E9368BA71D78868B002D4B01 /* Version+CoreDataProperties.m */,
 				E9E42A981D7517EB00C5A74D /* Jottings.xcdatamodeld */,
+				E9368B971D78868A002D4B01 /* Jottings-Bridging-Header.h */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -300,19 +318,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9E42AD11D751CF100C5A74D /* Version+CoreDataProperties.swift in Sources */,
+				E9368BAE1D78868B002D4B01 /* Version+CoreDataClass.m in Sources */,
 				E92B76AC1D761EC200EC0DD7 /* LibraryTableViewController.swift in Sources */,
-				E9E42ACB1D751CF100C5A74D /* Annotation+CoreDataProperties.swift in Sources */,
-				E9E42ACC1D751CF100C5A74D /* Annotation.swift in Sources */,
-				E9E42ACE1D751CF100C5A74D /* Jotting.swift in Sources */,
-				E9E42ACD1D751CF100C5A74D /* Jotting+CoreDataProperties.swift in Sources */,
-				E9E42ACF1D751CF100C5A74D /* Author+CoreDataProperties.swift in Sources */,
+				E9368BA81D78868B002D4B01 /* Authour+CoreDataClass.m in Sources */,
+				E9368BA91D78868B002D4B01 /* Authour+CoreDataProperties.m in Sources */,
+				E9368BAA1D78868B002D4B01 /* Annotation+CoreDataClass.m in Sources */,
+				E9368BAF1D78868B002D4B01 /* Version+CoreDataProperties.m in Sources */,
+				E9368BAB1D78868B002D4B01 /* Annotation+CoreDataProperties.m in Sources */,
+				E9368BAD1D78868B002D4B01 /* Jotting+CoreDataProperties.m in Sources */,
+				E9368BAC1D78868B002D4B01 /* Jotting+CoreDataClass.m in Sources */,
 				E9E42A941D7517EB00C5A74D /* JottingViewController.swift in Sources */,
 				E9E42B131D752BA100C5A74D /* TableViewController.swift in Sources */,
 				E9E42A9A1D7517EB00C5A74D /* Jottings.xcdatamodeld in Sources */,
 				E9E42A921D7517EB00C5A74D /* AppDelegate.swift in Sources */,
-				E9E42AD01D751CF100C5A74D /* Author.swift in Sources */,
-				E9E42AD21D751CF100C5A74D /* Version.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,10 +474,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Jottings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.kals.Jottings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jottings/Jottings-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -468,10 +489,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Jottings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.kals.Jottings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jottings/Jottings-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

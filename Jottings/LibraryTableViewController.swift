@@ -142,7 +142,7 @@ class LibraryTableViewController: UITableViewController {
             return _fetchedResultsController!
         }
         
-        let fetchRequest: NSFetchRequest<Jotting> = Jotting.fetchRequestMorten()
+        let fetchRequest: NSFetchRequest<Jotting> = Jotting.fetchRequest()
         
         // Set the batch size to a suitable number.
         fetchRequest.fetchBatchSize = 6
