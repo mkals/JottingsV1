@@ -17,7 +17,7 @@ extension Annotation {
     @NSManaged var startIndex: NSNumber?
     @NSManaged var endIndex: NSNumber?
     @NSManaged var comment: String?
-    @NSManaged var edited: NSDate?
+    @NSManaged var edited: Date?
     @NSManaged var version: Version?
 
 }

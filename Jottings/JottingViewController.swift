@@ -23,6 +23,21 @@ class JottingViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    var detailItem: Jotting? {
+        didSet {
+            // Update the view.
+            self.configureView()
+        }
+    }
+
+    func configureView() {
+        
+        header = detailItem.
+        body =
+        footer = 
+        
+    }
 
 
 }

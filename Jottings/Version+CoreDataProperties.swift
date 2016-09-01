@@ -16,7 +16,7 @@ extension Version {
 
     @NSManaged var title: String?
     @NSManaged var body: String?
-    @NSManaged var edited: NSDate?
+    @NSManaged var edited: Date?
     @NSManaged var work: Jotting?
     @NSManaged var annotations: NSSet?
 
